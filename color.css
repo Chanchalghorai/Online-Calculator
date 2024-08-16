@@ -50,8 +50,11 @@ h6{
 }
 
 .calculator form input:hover{
-    opacity: 40%;
-    border-radius: 10px;
+/*     opacity: 40%;
+    border-radius: 10px; */
+
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
 form .display{
